@@ -1,0 +1,206 @@
+<html>
+
+<head>
+  <title>Carnivale</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <h1> Carnivale</h1>
+    <h1> A Masquarade Dance</h1>
+  </header>
+
+  <img class="left-image" src="Dancing-2.jpg.jpg" alt="Dancing hands">
+  <img class="right-image" src="Dancing-1.jpg" alt="Dancing couple">
+
+
+  <main>
+    <section id="intro">
+      <h2>An evening of music, dancing, and sheer elegance.</h2>
+      <p>We are hosting this wonderful event to help support our vibrant artistic community here in Ladysmith. Come join
+        us!</p>
+    </section>
+    <section id="events">
+      <h2>Details</h2>
+      <ul>
+        <li>
+          <h3>When</h3>
+          <p>On October 28th, 2023. Doors open at 7pm and close at midnight. The organizers turn into pumpkins then!</p>
+        </li>
+        <li>
+          <h3>Where</h3>
+          <p>We will be hosting this soiree at Aggie Hall. 1110, 1st Ave, Ladysmith, BC. </p>
+        </li>
+        <li>
+          <h3>Tickets</h3>
+          <p>Tickets are $50. This helps us make sure youll have an evening to remeber! From music, food, drink and
+            merryment it will be quite the Shin-Dig! All procedes will go to the Ladysmith Arts Council to help us find our
+            new location. Click to buy your tickets through <a class="links"
+              href="https://www.ladysmitharts.ca/other-events"> the Ladysmith Arts Council website. </a></href>
+          </p>
+        </li>
+        <li>
+          <h3>Music</h3>
+          <p>We are very lucky to say that the Soul Shakers will be providing us with an evening of live music. Heres a
+            sample of their music below!</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/S94-qCF22IE" title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen></iframe>
+        </li>
+        <li>
+          <h3>Food</h3>
+          <p>There will be a variety of finger food available through the evening. They will all be labeled and made by
+            local chefs to bring the delicate and sophosticated tastes to this evenings event.</p>
+        </li>
+        <li>
+          <h3>Age restrictions</h3>
+          <p>This is an event that will have liquor on the premeses, that means that although we can offer winde, beer
+            and other lovely drinks to help your evening be memorable, that means that no-one under the age of 19 is
+            allowed at thjis event.</p>
+        </li>
+        <li>
+          <h3>Dress Code</h3>
+          <p>Dress to the Nines! This is one of those rare occasions that you are encouraged to dress as nice as you
+            want! Such a rartiy in our day and age. I know there will be more than a few ballgowns at the event. </p>
+        </li>
+        <li>
+          <h3>Masks</h3>
+          <p>Masks Required! Although not the ones were used to! as this is a masquarade dance, we hope everyone comes
+            ready to enjoy as night of mystery and intrigue as we don our creative and artistic face coverings. We will
+            have a few events leading up to the dance that will be some workshops on how to make your own mask! </p>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Get in touch with us and we would be happy to answer your questions.</p>
+    <form>
+<p>Email us</p><a class="links" href="mailto:info@ladysmitharts.ca"> HERE</a>
+<p>Call us at 250-245-1252</p>
+    </form>
+  </section>
+  <footer>
+    <p>&copy; 2023 Ladysmith Arts Council. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
+<style>
+
+  @font-face {
+    font-family: right;
+    src: url(Righteous-Regular.ttf);
+  }
+
+  @font-face {
+    font-family: cinzel;
+    src: url(Cinzel-Regular.ttf);
+  }
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: cinzel;
+    margin: 0;
+    background-color: black;
+
+  }
+
+  header {
+    background-color: rgb(214, 224, 211);
+    color: rgb(35, 58, 80);
+    display: flex;
+    font-family: right;
+    font-size: large;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    animation-name: titleflash;
+    animation-duration: 3s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes titleflash {
+    0% {
+      background-color: goldenrod;
+    }
+
+    25% {
+      background-color: rgb(240, 187, 55);
+    }
+
+    50% {
+      background-color: rgb(245, 218, 150);
+    }
+
+    75% {
+      background-color: rgb(238, 194, 81);
+    }
+
+    100% {
+      background-color: goldenrod;
+    }
+  }
+
+  nav a {
+    color: rgb(235, 241, 237);
+    text-decoration: none;
+    padding: 5px;
+  }
+
+  .left-image {
+    width: 25%;
+    height: auto;
+    float: left;
+  }
+
+  .right-image {
+    float: right;
+    width: 25%;
+    height: auto;
+  }
+
+
+  main {
+    background-color: black;
+    color: rgb(175, 153, 29);
+    font-size: 20px;
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  .links {
+    color: rgb(248, 220, 94)
+    
+  }
+
+  section {
+    margin-bottom: 40px;
+  }
+
+  #contact {
+    border: 5px double goldenrod;
+    color: aliceblue;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    max-width: 25%;
+  }
+
+  h2 {
+    font-size: 28px;
+    color: rgb(250, 244, 156);
+  }
+
+  footer {
+    color: aliceblue;
+  }
+</style>
